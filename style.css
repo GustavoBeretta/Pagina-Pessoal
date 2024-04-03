@@ -4,4 +4,6 @@ body {
 
 aside {
     background-color: #2165bf;
+    border-radius: 10px;
+    width: 400px
 }   
