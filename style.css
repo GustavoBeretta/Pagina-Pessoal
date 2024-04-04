@@ -3,20 +3,50 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header {
+    height: 80px;
+    width: 300px;
+    background-color: #2165bf;
+    margin: auto;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
 aside {
     background-color: #0487d9;
     border-radius: 10px;
-    width: 600px;
+    width: 550px;
     color: white;
     text-align: center;
     padding: 40px;
+    margin-left: 60px;
 } 
 
 h1 {
     font-weight: bolder;
     font-size: 40px;
+    margin: 0px;
 }
 
 h2 {
     font-size: 20px;
+    font-weight:normal;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #2939a6;
+}
+
+#perfil {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
 }
