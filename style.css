@@ -24,6 +24,7 @@ header {
 
 main {
     margin: 55px;
+    height: 950px;
 }
 
 aside {
@@ -106,4 +107,10 @@ h1 {
 
 .materias > ul > li {
     margin: 4px;
+}
+
+footer {
+    height: 80px;
+    background-color: var(--cor3);
+    float: ;
 }
