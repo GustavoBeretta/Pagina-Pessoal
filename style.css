@@ -57,6 +57,8 @@ h1 {
     border-radius: 10px;
     padding: 10px 10px;
     text-decoration: none;
+    font-style: normal;
+    margin-right: 30px;
 }
 
 .social-link:hover {
@@ -110,7 +112,43 @@ h1 {
 }
 
 footer {
-    height: 80px;
+    height: 40px;
     background-color: var(--cor3);
-    float: ;
+    text-align: center;
+    padding: 20px;
+}
+
+.navegacao {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.navegacao:hover {
+    background-color: var(--cor0);
+}
+
+address > h2 {
+    display: inline-block;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    margin-right: 30px;
+}
+
+#tecnologias {
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 15px;
 }
