@@ -22,9 +22,30 @@ header {
     text-align: center;
 }
 
+.navegacao {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.navegacao:hover {
+    background-color: var(--cor0);
+}
+
 main {
-    margin: 55px;
-    height: 950px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: auto;
+    display: flex;
+    max-width: 1335px;
 }
 
 aside {
@@ -35,8 +56,6 @@ aside {
     text-align: center;
     padding: 40px;
     margin-right: 55px;
-    float: left;
-    margin-bottom: 40px;
 } 
 
 h1 {
@@ -44,10 +63,74 @@ h1 {
     font-size: 40px;
 }
 
+#perfil {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
 .h2-aside {
     font-size: 20px;
     font-weight:normal;
     margin-bottom: 20px;
+}
+
+.descricao-aside {
+    text-decoration: none;
+    color: white;
+}
+
+.descricao-aside:hover {
+    text-decoration: underline;
+    color: var(--cor4);
+}
+
+#tecnologias {
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+#direita > h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.sobre-mim {
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 17px;
+}
+
+.materias {
+    background-color: var(--cor1);
+    width: 350px;
+    float: left;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.materias > ul > li {
+    margin: 4px;
+}
+
+footer {
+    height: 40px;
+    background-color: var(--cor3);
+    text-align: center;
+    padding: 20px;
+}
+
+address > h2 {
+    display: inline-block;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    margin-right: 30px;
 }
 
 .social-link {
@@ -68,87 +151,4 @@ h1 {
 .social-link img {
     margin-right: 2px;
     vertical-align: middle;
-}
-
-.descricao-aside {
-    text-decoration: none;
-    color: white;
-}
-
-.descricao-aside:hover {
-    text-decoration: underline;
-    color: var(--cor4);
-}
-
-#perfil {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border-radius: 10px;
-}
-
-#direita > h2 {
-    font-size: 30px;
-    margin-bottom: 30px;
-}
-
-.sobre-mim {
-    text-align: justify;
-    text-indent: 20px;
-    font-size: 17px;
-}
-
-.materias {
-    background-color: var(--cor1);
-    width: 350px;
-    float: left;
-    padding: 20px 40px;
-    border-radius: 10px;
-    margin-right: 40px;
-    margin-bottom: 40px;
-}
-
-.materias > ul > li {
-    margin: 4px;
-}
-
-footer {
-    height: 40px;
-    background-color: var(--cor3);
-    text-align: center;
-    padding: 20px;
-}
-
-.navegacao {
-    display: inline-block;
-    background-color: white;
-    color: black;
-    border-radius: 10px;
-    padding: 10px 10px;
-    text-decoration: none;
-    margin-top: 20px;
-    font-size: 17px;
-    font-weight: bold;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-.navegacao:hover {
-    background-color: var(--cor0);
-}
-
-address > h2 {
-    display: inline-block;
-    font-style: normal;
-    font-size: 20px;
-    color: white;
-    margin-right: 30px;
-}
-
-#tecnologias {
-    width: 250px;
-    background-color: white;
-    border-radius: 10px;
-    padding: 10px;
-    margin-top: 40px;
-    margin-left: 15px;
 }
