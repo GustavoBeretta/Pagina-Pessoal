@@ -56,6 +56,7 @@ aside {
     text-align: center;
     padding: 40px;
     margin-right: 55px;
+    height: 810px;
 } 
 
 h1 {
@@ -72,7 +73,7 @@ h1 {
 .h2-aside {
     font-size: 20px;
     font-weight:normal;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .descricao-aside {
@@ -96,7 +97,7 @@ h1 {
 
 #direita > h2 {
     font-size: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .sobre-mim {
@@ -111,7 +112,6 @@ h1 {
     float: left;
     padding: 20px 40px;
     border-radius: 10px;
-    margin-bottom: 40px;
 }
 
 .materias > ul > li {
