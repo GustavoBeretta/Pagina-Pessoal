@@ -63,8 +63,10 @@ main {
 @media only screen and (max-width: 975px) {
 
     main {
-        display: block;
-        max-width: 830px;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 50px;
+        padding-left: 50px;
     }
 
     .margem-abaixo {
@@ -72,8 +74,27 @@ main {
     }
 
     aside {
-        margin: auto;
         margin-bottom: 50px;
+    }
+
+    .disciplina-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    address {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-link {
+        width: 100px;
+        margin-bottom: 10px;
+    }
+
+    #email {
+        margin-bottom: 15px;
     }
 
 }
@@ -85,9 +106,20 @@ aside {
     color: white;
     text-align: center;
     padding: 40px;
-    margin-right: 55px;
     height: 810px;
 } 
+
+@media only screen and (min-width: 976px) {
+
+    aside {
+        margin-right: 55px;
+    }
+
+    .margem-direita-botao {
+        margin-right: 30px;
+    }
+
+}
 
 h1 {
     font-weight: bolder;
@@ -145,13 +177,9 @@ h1 {
 
 @media only screen and (min-width: 1451px){
     
-    #disciplina-flex {
+    .disciplina-flex {
         display: flex;
     }
-
-}
-
-@media only screen and (min-width: 1451px){
 
     .margem-direita {
         margin-right: 40px;
@@ -164,22 +192,25 @@ h1 {
 }
 
 footer {
-    height: 40px;
     background-color: var(--cor3);
-    text-align: center;
     padding: 20px;
 }
 
+address {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 address > h2 {
-    display: inline-block;
     font-style: normal;
     font-size: 20px;
     color: white;
     margin-right: 30px;
+    margin-top: 10px;
 }
 
 .social-link {
-    display: inline-block;
     background-color: white;
     color: black;
     border-radius: 10px;
