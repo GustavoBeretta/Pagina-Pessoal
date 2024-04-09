@@ -48,6 +48,36 @@ main {
     max-width: 1335px;
 }
 
+@media only screen and (min-width:976px) and (max-width: 1450px) {
+
+    main {
+        max-width: 865px;
+    }
+
+    .margem-abaixo {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 975px) {
+
+    main {
+        display: block;
+        max-width: 830px;
+    }
+
+    .margem-abaixo {
+        margin-bottom: 20px;
+    }
+
+    aside {
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+}
+
 aside {
     background-color: var(--cor2);
     border-radius: 10px;
@@ -109,9 +139,24 @@ h1 {
 .materias {
     background-color: var(--cor1);
     width: 350px;
-    float: left;
     padding: 20px 40px;
     border-radius: 10px;
+}
+
+@media only screen and (min-width: 1451px){
+    
+    #disciplina-flex {
+        display: flex;
+    }
+
+}
+
+@media only screen and (min-width: 1451px){
+
+    .margem-direita {
+        margin-right: 40px;
+    }
+    
 }
 
 .materias > ul > li {
@@ -141,7 +186,6 @@ address > h2 {
     padding: 10px 10px;
     text-decoration: none;
     font-style: normal;
-    margin-right: 30px;
 }
 
 .social-link:hover {
