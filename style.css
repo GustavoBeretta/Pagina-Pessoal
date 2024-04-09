@@ -130,6 +130,8 @@ h1 {
     margin-top: 30px;
     margin-bottom: 30px;
     border-radius: 10px;
+    width: 300px;
+    height: 322px;
 }
 
 .h2-aside {
@@ -173,6 +175,45 @@ h1 {
     width: 350px;
     padding: 20px 40px;
     border-radius: 10px;
+}
+
+@media only screen and (max-width: 450px) {
+    .materias {
+        width: 295px;
+        padding: 20px;
+    }
+
+    aside {
+        width: 280px;
+        padding: 20px;
+    }
+
+    #perfil {
+        width: 250px;
+        height: 268px;
+    }
+
+    #tecnologias {
+        margin-left: 5px;
+    }
+
+    header {
+        height: 200px;
+        padding-top: 1px;
+        padding-bottom: 5px;
+    }
+
+    #flex-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navegacao {
+        width: 200px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
 }
 
 @media only screen and (min-width: 1451px){
